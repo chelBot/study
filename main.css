@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+main, h1 {
+    max-width: 80rem;
+}
+
+.intro {
+    margin: 5rem 0;
+}
+
+header {
+    padding: 8rem 14rem;
+    background: #0077c0;
+    color: #fff;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.315rem;
+    color: #0077c0;
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+
+video {
+    display: block;
+    max-width: 80rem;
+    margin: 1.8rem 0;
+}
+
+main {
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: auto;
+}
+
+.callout {
+    color: rgba(183,39,85,1);
+    font-weight: bolder;
+    text-decoration: wavy;
+    font-size: 2.2rem;
+    font-style: italic;
+}
